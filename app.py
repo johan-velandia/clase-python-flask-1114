@@ -1,14 +1,12 @@
-# Importamos Flask y una funcion que permite mostrar un HTML.
+
 from flask import Flask, render_template
 
 
-# Creamos la aplicacion principal.
-# Este objeto sera el centro de nuestro proyecto Flask.
+
 app = Flask(__name__)
 
 
-# Cuando alguien entra a la direccion principal del sitio, Flask ejecuta
-# esta funcion y devuelve la pagina `index.html`.
+
 @app.route("/")
 def inicio():
     return render_template("index.html")
@@ -30,6 +28,13 @@ def trabajo():
 def eu():
     return render_template("eu.html")
 
+@app.route("/acerca")
+def acerca():
+    return render_template("acerca.html")
+
+@app.route("/contacto")
+def contacto():
+    return render_template("contacto.html")
 
 
 
