@@ -94,10 +94,71 @@ Eso significa que el servidor recibio la solicitud y respondo exitosamente (200 
 ## Preguntas de reflexion
 
 1. ¿Que rol tiene app.py en todo esto?
+RTA:app.py sirve como el archivo principal de una aplicación en Python.
+Es el encargado de iniciar el programa y conectar todo lo necesario para que funcione.
+
+Dependiendo del proyecto, puede servir para:
+
+iniciar una página web,
+ejecutar un bot,
+abrir una aplicación,
+conectar una base de datos,
+manejar funciones del sistema,
+organizar otros archivos del proyecto.
+
+En muchos proyectos, cuando ejecutas la aplicación, realmente estás ejecutando app.py.
+
 2. ¿Por que necesitas el entorno virtual (.venv)?
+RTA: El entorno virtual `venv` se usa para aislar las librerías y dependencias de cada proyecto en Python.
+
+Sirve para que:
+
+* cada proyecto tenga sus propias versiones de paquetes,
+* no se mezclen librerías entre proyectos,
+* evitar errores de compatibilidad,
+* mantener el sistema más ordenado,
+* instalar paquetes sin afectar todo el computador.
+
+Por ejemplo, un proyecto puede necesitar una versión diferente de una librería y otro proyecto otra distinta.
+Con `venv`, ambos funcionan separados sin conflictos.
+
+También ayuda cuando:
+
+* compartes el proyecto con otras personas,
+* subes el proyecto a un servidor,
+* trabajas en equipos,
+* quieres instalar paquetes de forma segura.
+
 3. ¿Donde se almacena el HTML que ves en el navegador?
+RTA:en templates
 4. Si cambias el HTML sin guardar, ¿se refleja el cambio en el navegador? ¿Por que?
+RTA:no se refleja ningun cambio por que se necesita que la pagina reciba los cambios hechos en ella, por eso se guarda
 5. ¿Que es render_template y por que Flask lo usa?
+RTA:`render_template` es una función de Flask que sirve para mostrar páginas HTML dentro de una aplicación web.
+
+Flask la usa para:
+
+* cargar archivos HTML,
+* enviar información desde Python hacia la página,
+* mostrar contenido dinámico al usuario.
+
+En lugar de escribir todo directamente en Python, `render_template` permite separar:
+
+* la lógica del programa,
+* del diseño visual de la página.
+
+Por ejemplo, gracias a `render_template` una página puede mostrar:
+
+* nombres de usuarios,
+* resultados,
+* datos de una base de datos,
+* mensajes,
+* listas o tablas.
+
+Flask utiliza un sistema de plantillas llamado Jinja para hacer esto.
+Así las páginas pueden cambiar automáticamente según la información que recibe la aplicación.
+
+
 
 ## Entregable
 

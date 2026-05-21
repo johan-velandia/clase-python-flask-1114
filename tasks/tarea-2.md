@@ -131,9 +131,13 @@ Edad: 25
 ## Preguntas de reflexion
 
 1. ¿Cual es la diferencia entre escribir datos en HTML vs guardarlos en variables Python?
+RTA:es desde python ,es mas complicado pero queda bien guardado
 2. Si el profesor cambia mañana, ¿cuantos archivos necesitas editar con este enfoque?
+RTA:necesito cambiar una variable en python la cual seria la variable "profesor"
 3. ¿Que ventaja tiene usar `{{ }}` en lugar de escribir texto fijo?
+RTA.es util y hace mas rapido el proceso
 4. ¿Donde se ejecuta Jinja2: en la computadora del usuario o en el servidor?
+RTA:en el servidr
 
 ## Entregable
 
