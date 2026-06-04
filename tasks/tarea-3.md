@@ -205,8 +205,11 @@ def nombre_funcion():  # Que ocurre
 ## Preguntas de reflexion
 
 1. Si tienes 10 paginas diferentes, ¿cuantas funciones necesitas en app.py?
+RTA:necesita 10 url
 2. ¿Que pasa si cambias el nombre de una ruta pero no actualizas los links?
+RTA:no se cambia el nombre
 3. ¿Por que es importante tener un menu consistente en todas las paginas?
+RTA:para que funcione al ejecutar
 
 ## Entregable
 

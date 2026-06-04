@@ -12,11 +12,29 @@
             <li><a href="/informacion">Informacion</a></li>
             <li><a href="/recursos">Recursos</a></li>
             <li><a href="/tareas">Tareas</a></li>
+            <li><a href="/inscripcion">Inscripcion</a></li>
         </ul>
     </nav>
 
     <h1>Tareas Entregables</h1>
     
-    <!-- Aqui va el bucle for (Tarea 4) -->
+    <table border="1">
+    <thead>
+        <tr>
+            <th>Numero</th>
+            <th>Titulo</th>
+            <th>Fecha entrega</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for tarea in tareas %}
+        <tr>
+            <td>{{ tarea.numero }}</td>
+            <td>{{ tarea.titulo }}</td>
+            <td>{{ tarea.fecha }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
 </body>
 </html>

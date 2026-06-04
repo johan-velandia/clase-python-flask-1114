@@ -12,6 +12,7 @@
             <li><a href="/informacion">Informacion</a></li>
             <li><a href="/recursos">Recursos</a></li>
             <li><a href="/tareas">Tareas</a></li>
+            <li><a href="/inscripcion">Inscripcion</a></li>
         </ul>
     </nav>
 
@@ -22,7 +23,12 @@
 
     <h2>Objetivos</h2>
     <ul>
-        <!-- Aqui va el bucle for (Tarea 4) -->
+        <h2>Objetivos de la clase</h2>
+<ul>
+    {% for objetivo in objetivos %}
+    <li>{{ objetivo }}</li>
+    {% endfor %}
+</ul>
     </ul>
 </body>
 </html>

@@ -159,8 +159,11 @@ if request.method == "POST":
 ## Preguntas de reflexion
 
 1. ¿Que diferencia hay entre `<input type="text">` y `<input type="email">`?
+RTA:Lo que pide de requerimiento
 2. ¿Que hace el atributo `required` en un campo?
+RTA:hace que cierta informacion sea obligatoria
 3. Si un usuario completa el formulario, ¿donde se guardan esos datos ahora?
+RTA:en ningun lado por que no hay base de datos de momento
 
 ## Entregable
 

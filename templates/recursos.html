@@ -12,7 +12,15 @@
             <li><a href="/informacion">Informacion</a></li>
             <li><a href="/recursos">Recursos</a></li>
             <li><a href="/tareas">Tareas</a></li>
+            <li><a href="/inscripcion">Inscripcion</a></li>
         </ul>
+        <ul>
+    {% for enlace in enlaces %}
+    <li>
+        <a href="{{ enlace.url }}">{{ enlace.nombre }}</a>
+    </li>
+    {% endfor %}
+</ul>
     </nav>
 
     <h1>Recursos Educativos</h1>

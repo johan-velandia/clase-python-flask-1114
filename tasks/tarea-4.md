@@ -128,8 +128,11 @@ En HTML:
 ## Preguntas de reflexion
 
 1. Si tienes 50 tareas en la lista, ¿cuantas lineas de HTML necesitas escribir?
+RTA:se necesitan 50 lineas
 2. ¿Que pasa si accedes a una propiedad que no existe, como `{{ tarea.profesor }}`?
+RTA:no se abre
 3. ¿Como cambarias el bucle si quisieras mostrar solo las primeras 5 tareas?
+RTA:
 
 ## Entregable
 
